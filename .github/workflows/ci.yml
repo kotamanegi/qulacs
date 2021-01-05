@@ -7,7 +7,7 @@ on:
 jobs:
   gcc8-build:
     name: GCC8 build
-    strategy:
+    strategy: 
       matrix:
         python-version: [ '3.7.5', '2.7.17' ]
         os: [ 'ubuntu-latest' ]
